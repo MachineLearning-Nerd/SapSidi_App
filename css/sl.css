@@ -1400,11 +1400,13 @@ body.spinnerprogress.done .progress {
 }
 
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: red;
-  color: white;
-  text-align: center;
+	font-size: larger;
+	font-weight: bolder;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: rgb(123, 29, 1);
+	color: white;
+	text-align: center;
 }

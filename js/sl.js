@@ -226,6 +226,8 @@ var setQuestion = function()
 		{
 			document.querySelectorAll('#userAnswer ul li')[i].id = "correctans";
 			shah.log('Ans: ' + shah.filtered[shah.filteredIndex].answers[i]);
+		}else{
+			document.querySelectorAll('#userAnswer ul li')[i].id = "";
 		}
 	}
 	
